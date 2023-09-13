@@ -26,7 +26,7 @@ const catalogs = [
 
 // Schedule cron jobs
 cron.schedule(
-  '0 7-1 * * *',
+  '0 7-23,0-1 * * *',
   async () => {
     console.log('Running cron job')
 
